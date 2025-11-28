@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Garage Roof -->
+  <path d="M4 24L32 4L60 24" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Garage Walls -->
+  <path d="M10 24V56H54V24" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Storage Box -->
+  <rect x="22" y="34" width="20" height="18" rx="2" stroke="#1e293b" stroke-width="4"/>
+  <!-- Box Detail -->
+  <path d="M32 34V42" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+</svg>
