@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import StickyActions from './components/StickyActions';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <CTA />
       </main>
       <Footer />
+      <StickyActions />
     </div>
   );
 }
