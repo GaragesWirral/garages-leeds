@@ -95,7 +95,7 @@ const EnquiryForm: React.FC = () => {
                   ></textarea>
                 </div>
                 <button 
-                  className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-6 w-full text-lg h-14" 
+                  className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-[#0070f3] text-white hover:bg-[#0060df] rounded-md px-6 w-full text-lg h-14" 
                   type="submit"
                   disabled={isSubmitting}
                 >

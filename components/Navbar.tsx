@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
             <a href="#enquiry" className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-secondary hover:text-secondary-foreground h-10 rounded-md px-6">
               Get a Quote
             </a>
-            <a href="tel:07519667044" className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 shadow h-10 rounded-md px-6">
+            <a href="tel:07519667044" className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-[#0070f3] text-white hover:bg-[#0060df] shadow h-10 rounded-md px-6">
               Call Now
             </a>
           </div>
@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
             <a 
               href="tel:07519667044" 
               onClick={() => setIsOpen(false)}
-              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium h-12 rounded-md px-6 bg-primary text-primary-foreground w-full shadow-sm"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium h-12 rounded-md px-6 bg-[#0070f3] text-white w-full shadow-sm hover:bg-[#0060df]"
             >
               <Phone className="w-4 h-4" /> Call Now
             </a>
