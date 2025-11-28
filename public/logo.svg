@@ -1,0 +1,20 @@
+<svg width="250" height="60" viewBox="0 0 250 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon Group -->
+  <g transform="translate(0, 5)">
+    <!-- Garage Structure -->
+    <path d="M5 25L25 5L45 25" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M10 25V50H40V25" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Padlock -->
+    <rect x="20" y="32" width="10" height="8" rx="1" fill="#1e293b"/>
+    <path d="M22 32V29C22 29 22 27 25 27C28 27 28 29 28 29V32" stroke="#1e293b" stroke-width="2"/>
+    <circle cx="25" cy="36" r="1.5" fill="white"/>
+  </g>
+  
+  <!-- Text Group -->
+  <g transform="translate(60, 0)">
+    <text x="0" y="35" font-family="Inter, sans-serif" font-weight="800" font-size="28" fill="#1e293b" letter-spacing="1">GARAGES</text>
+    <text x="5" y="52" font-family="Inter, sans-serif" font-weight="600" font-size="12" fill="#1e293b" letter-spacing="4">LEEDS</text>
+    <!-- Underline -->
+    <rect x="0" y="56" width="140" height="3" fill="#06b6d4"/>
+  </g>
+</svg>

@@ -9,11 +9,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <a className="flex items-center gap-2" href="/">
-            <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">GL</div>
-            <div className="hidden sm:block">
-              <div className="text-xl font-bold text-foreground">Garages Leeds</div>
-              <div className="text-xs text-muted-foreground">Lock-Up Garage Rentals</div>
-            </div>
+            <img src="/logo.svg" alt="Garages Leeds" className="h-12 w-auto" />
           </a>
 
           <div className="hidden lg:flex items-center gap-2 text-primary font-semibold text-lg">

@@ -53,18 +53,18 @@ const About: React.FC = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
-                <img src="https://www.garagesleeds.co.uk/secure-garage-door-leeds.jpg" alt="Secure garage in Leeds" className="w-full h-full object-cover"/>
+                <img src="/secure-garage-door-leeds.jpg" alt="Secure garage in Leeds" className="w-full h-full object-cover"/>
               </div>
               <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
-                <img src="https://www.garagesleeds.co.uk/garage-lock-security.jpg" alt="Garage security lock" className="w-full h-full object-cover"/>
+                <img src="/garage-lock-security.jpg" alt="Garage security lock" className="w-full h-full object-cover"/>
               </div>
             </div>
             <div className="space-y-4 pt-8">
               <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
-                <img src="https://www.garagesleeds.co.uk/garage-storage-unit.jpg" alt="Garage storage unit" className="w-full h-full object-cover"/>
+                <img src="/garage-storage-unit.jpg" alt="Garage storage unit" className="w-full h-full object-cover"/>
               </div>
               <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
-                <img src="https://www.garagesleeds.co.uk/leeds-garage-rental.jpg" alt="Leeds garage for rent" className="w-full h-full object-cover"/>
+                <img src="/leeds-garage-rental.jpg" alt="Leeds garage for rent" className="w-full h-full object-cover"/>
               </div>
             </div>
           </div>

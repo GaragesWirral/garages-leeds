@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://www.garagesleeds.co.uk/secure-garage-lock-up-storage-leeds.jpg" 
+                src="/secure-garage-lock-up-storage-leeds.jpg" 
                 alt="Lock-up garage to rent in Leeds" 
                 className="w-full h-full object-cover"
               />
