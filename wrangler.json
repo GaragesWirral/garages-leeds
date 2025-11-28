@@ -1,0 +1,10 @@
+{
+  "name": "garages-leeds",
+  "compatibility_date": "2025-11-28",
+  "assets": {
+    "directory": "./dist"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

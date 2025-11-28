@@ -46,15 +46,16 @@ const Navbar: React.FC = () => {
             <a 
               href="#enquiry" 
               onClick={() => setIsOpen(false)}
-              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium h-10 rounded-md px-6 border border-input bg-background w-full"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium h-12 rounded-md px-6 border border-input bg-background w-full shadow-sm"
             >
               Get a Quote
             </a>
             <a 
               href="tel:07519667044" 
-              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium h-10 rounded-md px-6 bg-primary text-primary-foreground w-full"
+              onClick={() => setIsOpen(false)}
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium h-12 rounded-md px-6 bg-primary text-primary-foreground w-full shadow-sm"
             >
-              Call Now
+              <Phone className="w-4 h-4" /> Call Now
             </a>
         </div>
       )}
