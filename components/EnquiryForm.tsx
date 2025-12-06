@@ -12,19 +12,18 @@ const EnquiryForm: React.FC = () => {
     const formData = new FormData(e.currentTarget);
     
     try {
-      const response = await fetch("https://formsubmit.co/ajax/josephgough02@gmail.com", {
+      const response = await fetch("https://formspree.io/f/xpwvlnen", {
         method: "POST",
         headers: { 
-            'Content-Type': 'application/json',
             'Accept': 'application/json'
         },
-        // Convert FormData to JSON for the AJAX request
         body: JSON.stringify(Object.fromEntries(formData))
       });
 
       if (response.ok) {
         setIsSubmitting(false);
         setIsSubmitted(true);
+        e.currentTarget.reset(); // Reset form fields
       } else {
         setIsSubmitting(false);
         alert("Something went wrong. Please try again or call us directly.");
@@ -66,11 +65,6 @@ const EnquiryForm: React.FC = () => {
               </div>
             ) : (
               <form className="space-y-6" onSubmit={handleSubmit}>
-                {/* Honey pot to prevent spam */}
-                <input type="text" name="_honey" style={{display: 'none'}} />
-                <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_subject" value="New Garage Enquiry from Website" />
-
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label htmlFor="name" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
