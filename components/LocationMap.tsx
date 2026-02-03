@@ -5,7 +5,7 @@ const LocationMap: React.FC = () => {
     <section className="py-16 lg:py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-balance">Find Garages Near You in Leeds</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-balance">Find Garages Near You</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
             We have garage locations throughout Leeds and West Yorkshire. Find a lock-up garage to rent near you.
           </p>
