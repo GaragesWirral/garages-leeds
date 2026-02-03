@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-white/20 pt-8 text-center text-white/70 text-sm">
           <p>© {new Date().getFullYear()} Garages Leeds. All rights reserved.</p>
-          <p className="mt-2">Garages to rent Leeds | Lock up garage to rent Leeds | Garage to rent near me | Garages for rent Leeds</p>
+        
         </div>
       </div>
     </footer>
