@@ -6,7 +6,7 @@ const CTA: React.FC = () => {
     <section className="py-20 lg:py-32 bg-gradient-to-br from-primary via-accent to-primary text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">Ready to Rent Your Garage in Leeds?</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-balance">Contact Us</h2>
           <p className="text-xl mb-10 opacity-90 text-pretty">
             Join hundreds of satisfied customers who trust Garages Leeds for secure, affordable lock-up garage rentals across West Yorkshire.
           </p>
